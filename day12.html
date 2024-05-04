@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .container {
+        position: relative;
+      }
+      
+      .black-box {
+        position: relative;
+        z-index: 1;
+        border: 2px solid black;
+        width: 50%;
+        height: 500px;
+        margin: 30px;
+        display: block;
+      }
+      
+      .gray-box {
+        position: absolute;
+        z-index: 3; 
+        background: rgb(245, 234, 234);
+        height: 300px;  
+        width: 35%;
+        left: 75px;
+        top: 50px;
+      }
+      
+      .green-box {
+        position: absolute;
+        z-index: 2; 
+        background: lightgreen;
+        width: 40%;
+        left: 70px;
+        top: 15px;
+        height: 400px;
+        
+      }
+      </style>
+</head>
+<body>
+    <h1>Z-index Example</h1>
+
+<p>An element with greater stack order is always above an element with a lower stack order.</p>
+
+<div class="container">
+  <div class="black-box">Black box (z-index: 1)</div>
+  <div class="gray-box">Gray box (z-index: 3)
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque voluptas animi voluptate ad dolorem, quo minus quibusdam nisi cum! Accusamus porro sit voluptatum facere nemo dolores, iste enim laboriosam nam eveniet cupiditate eum mollitia sunt iure cum, maxime cumque ad fugiat nobis eligendi. Aperiam quibusdam odit fuga. Reprehenderit, eos magni.
+  </div>
+  <div class="green-box">Green box (z-index: 2)
+    
+  </div>
+</div>
+
+</body>
+</html>
