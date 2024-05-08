@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     
+    <style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 70px;
+  padding-left: 300px;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 3 0px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  align-items: center;
+  border: 2px solid#000;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #17a135;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #27a742;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <!-- <img src="chicken.jpg" alt="" width="500px"> -->
+                <map name="google map"><a href="https://google.com/maps/place/5P+Media/@18.483744,73.808045,10z/data=!4m6!3m5!1s0x60c0294bb8974687:0x39f5e05a9dfcdc21!8m2!3d18.4837441!4d73.8080446!16s%2Fg%2F11trv7dc3s?hl=en-US&entry=ttu"></a></map>
+            </div>
+            <div class="col-md-6">
+                <div class="body">
+                    <h1>Contact Us</h1>
+                    <form action="#" method="post">
+                      <div class="form-group">
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" name="name" required>
+                      </div>
+                      <div class="form-group">
+                        <label for="email">Your Email:</label>
+                        <input type="email" id="email" name="email" required>
+                      </div>
+                      <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                      </div>
+                      <button type="submit">Send Message</button>
+                    </form>
+                  </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
